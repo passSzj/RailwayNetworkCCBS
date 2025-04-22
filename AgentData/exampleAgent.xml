@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<root>
+
+    <!--bule-->
+    <agent start_id="7" goal_id="6" s_index="0" g_index="1" length="80" speed="50"/>
+    <!--green-->
+    <agent start_id="2" goal_id="10" s_index="0" g_index="1" length="80" speed="50"/>
+    <!--red-->
+    <agent start_id="0" goal_id="9" s_index="0" g_index="1" length="80" speed="50"/>
+
+
+</root>
