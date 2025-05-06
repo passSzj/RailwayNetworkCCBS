@@ -29,7 +29,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63704d53-db5f-49cd-8f98-78f90d4306ef" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,6 +218,7 @@
       <workItem from="1746495143131" duration="1665000" />
       <workItem from="1746500795334" duration="4000" />
       <workItem from="1746500810314" duration="714000" />
+      <workItem from="1746514665616" duration="880000" />
     </task>
     <servers />
   </component>
