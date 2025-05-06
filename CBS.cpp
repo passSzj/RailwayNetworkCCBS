@@ -879,9 +879,9 @@ bool CBS::timeConflictCheck(Move move1, Move move2){
     }
     else if((isSameVertex(m1End,m2End))&&(!isSameVertex(m1Start,m2Start))){
         double timeMove1EnterVertex=move1.t2;
-        double timeMove1TailVertex=move1.t2;
+        double timeMove1TailVertex=move1.t2+move1.length/move1.speed;
         double timeMove2EnterVertex=move2.t2;
-        double timeMove2TailVertex=move2.t2;
+        double timeMove2TailVertex=move2.t2+move2.length/move2.speed;
 
         double max_start = std::max(timeMove1EnterVertex, timeMove2EnterVertex);
         double min_end = std::min(timeMove1TailVertex, timeMove2TailVertex);
