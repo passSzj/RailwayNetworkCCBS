@@ -58,16 +58,11 @@ Path SIPP::pathPlan(Node start,Node goal, Map &map,heuristic &h_values,double ag
 
     while(!open.empty()){
         curNode=find_min();
-        /*----------*/
-
-        /*----------*/
         auto v = visited.find(curNode.id+(curNode.interval_id+curNode.index)*map.getMapSize());
         if(v->second.second)
             continue;
         v->second.second = true;
-
-        curNode.ConvertNode();   /*转换的位置在close前后？？？*/
-
+        curNode.ConvertNode();
         auto parent=&close.insert({curNode.id+(curNode.interval_id+curNode.index)*map.getMapSize(),curNode}).first->second;
 
         if(curNode.id==goal.id){
